@@ -1,4 +1,4 @@
 FROM almalinux:9
-LABEL Auther="Sathish" \
+LABEL Author="Sathish" \
       practicing="devops"\
       description="this is the docker practice"
