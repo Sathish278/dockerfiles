@@ -1,15 +1,15 @@
 **User Data to Install Docker**
 
+```
 #!/bin/bash
-# Update the system
 sudo yum update -y
-
-* sudo yum install -y yum-utils
-* sudo yum-config-manager --add-repo https://download.docker.com/linux/rhel/docker-ce.repo
-* sudo yum install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
-* sudo systemctl start docker
-* sudo systemctl enable docker
-* sudo usermod -aG docker ec2-user
+sudo yum install -y yum-utils
+sudo yum-config-manager --add-repo https://download.docker.com/linux/rhel/docker-ce.repo
+sudo yum install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+sudo systemctl start docker
+sudo systemctl enable docker
+sudo usermod -aG docker ec2-user
+```
 
 
 ## Docker Cheat Sheet
